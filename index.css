@@ -1,0 +1,70 @@
+:root {
+    --page-bg-color: #1C1C1C;
+    --container-bg-color: #1F2937;
+    --btn-bg-color: #10B981;
+    --text-white: #FFFFFF;
+    --text-green: #4ADF86;
+    --password-bg: #273549;
+    --password-color: #55F991;
+    --password-size: 16px;
+    --bar-color: #2F3E53;
+    --description-color: #D5D4D8;
+    --description-size: 20px;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+    background: var(--page-bg-color);
+    color: var(--text-white)
+}
+
+#container {
+    background: var(--container-bg-color);
+    width: 550px;
+    padding: 100px 50px;
+    margin: 10px auto;
+}
+
+#title {
+    font-size: 40px;
+}
+
+#description {
+    color: var(--description-color);
+    margin-bottom: 50px;
+    font-size: var(--description-size);
+    font-family: 'Inter', sans-serif;
+}
+
+#password-btn {
+    background: var(--btn-bg-color);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: var(--text-white);
+}
+
+#password-dtl {
+    display: flex;
+    justify-content: space-around;
+}
+
+.password-txt {
+    width: 211px;
+    background: var(--password-bg);
+    color: var(--password-color);
+    font-size: var(--password-size);
+    padding: 11px 10px;
+    text-align: center;
+}
+
+.green {
+    color: var(--text-green);
+}
+
+.separator {
+    display: block;
+    border: 1px solid var(--bar-color);
+    margin: 30px 0;
+}
